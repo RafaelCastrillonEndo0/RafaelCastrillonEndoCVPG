@@ -1,0 +1,40 @@
+:root{
+    --fuentes:"New Amsterdam", sans-serif;
+}
+.container_1{
+    display: grid;
+    grid-template-areas: 
+    "menu"
+    "texto-principal"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: 12vh 90vh;
+}
+.menu{
+    overflow:hidden;
+
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.5vh solid rgb(243, 198, 50);
+    background-color: aqua;
+    grid-area: menu;
+}
+.texto-h1-menu{
+    
+    margin-top: 2vh;
+    margin-left: 14vh;
+    font-size: 40px;
+}
+.icon-img{
+    display: block;
+    position: absolute;
+    margin-left: 2vh;
+}
+.texto-principal{
+    background-color: red;
+    grid-area: texto-principal;
+}
+
+body{
+    font-family: var(--fuentes);
+}

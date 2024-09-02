@@ -1,5 +1,6 @@
 :root{
-    --fuentes:"New Amsterdam", sans-serif;
+    --fuentes:"Bebas Neue", sans-serif;
+    --fuenteSecundaria:"Exo 2", sans-serif;
 }
 .container_1{
     display: grid;
@@ -12,20 +13,22 @@
 }
 .menu{
     overflow:hidden;
-
     display: flex;
     flex-direction: row;
-    border-bottom: 0.5vh solid rgb(243, 198, 50);
-    background-color: aqua;
+    border-bottom: 0.5vh solid rgb(209, 139, 139);
+    background-color: rgb(23, 40, 40);
     grid-area: menu;
 }
 .texto-h1-menu{
-    
+    height: 100%;
+    width: 100%;
+    color:rgb(209, 139, 139);
     margin-top: 2vh;
     margin-left: 14vh;
-    font-size: 40px;
+    font-size: 8vh;
 }
 .icon-img{
+    width: 11vh;
     display: block;
     position: absolute;
     margin-left: 2vh;
@@ -34,7 +37,23 @@
     background-color: red;
     grid-area: texto-principal;
 }
-
+.menu-referencias{
+    list-style-type: none; 
+    padding:1vh;
+    
+    margin: 0;
+    margin-right: 40vh;
+    gap: 4vh;
+    display: flex;
+    justify-content: space-around;
+}
+.text-menu{
+    font-size: 3vh;
+    color:rgb(255, 160, 77);
+    font-family: var(--fuenteSecundaria);
+}
 body{
+    margin: 0;
+    padding: 0;
     font-family: var(--fuentes);
 }

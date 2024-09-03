@@ -328,5 +328,53 @@ a {
 }
 .txt-red{
     color: rgb(209, 139, 139);
+}
+.img-about{
+    position: absolute;
+    width: 65vh;
+    height: 72vh;
+    margin-left: 40vh;
+    margin-top: 15vh;
+    
+}
+.github-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+}
 
+.github-button {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    color: rgb(209, 139, 139);
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    width: 10vh;
+    height: 10vh;
+    margin-left: 245vh;
+    margin-top: 135vh;
+}
+
+.github-button i {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.github-button span {
+    font-family: var(--roboto);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.github-button:hover {
+    background-color: #555;
+    transform: scale(1.05);
 }

@@ -4,6 +4,7 @@
     --FuenteTercera: "Roboto Condensed", sans-serif;
     --fuenteCuarta : "Archivo Black", sans-serif;
     --fuenteMono : "Roboto Mono", monospace;
+    --roboto :"Roboto", sans-serif;
 }
 
 body {
@@ -249,10 +250,10 @@ a {
     padding: 0;
     margin: 0;
     font-family: var(--fuenteMono);
-    letter-spacing: -1px;
-    word-spacing: -7px;
+    letter-spacing: -0.4vh;
+    word-spacing: -1vh;
     color: yellow;
-    font-size: 5vh;
+    font-size: 4vh;
     margin-left: 89vh;
     margin-top: 3vh;
     position: relative;
@@ -267,4 +268,65 @@ a {
     margin: 0 auto;
     margin-top: 1vh; 
     border-radius: 1vh;  
+}
+.nombre-about{
+    position: absolute;
+    font-family: var(--roboto);
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+    height: 100vh;
+    font-size: 5.5vh;
+    margin-left: 117vh;
+    font-weight: 500;
+    font-style:inherit;
+    margin-top: 17vh;
+    color: white;
+}
+.txt-p-abt{
+    font-family: var(--roboto);
+    color:yellow;
+
+    position: absolute;
+    font-size: 3vh;
+    margin-left: 117.4vh;
+    margin-top: 25.5vh;
+
+}
+.txt-info-abt{
+    position: absolute;
+    color: rgb(187, 173, 173);
+    font-family: var(--roboto);
+    font-size: 2vh;
+    margin-left: 117vh;
+    margin-top: 32vh;
+    letter-spacing: 0.1vh;
+}
+.lista-abt{
+    position: absolute;
+    list-style-type: none;
+    margin-top: 50vh;
+    margin-left: 117vh;
+    width: 100vh;
+    height: 100vh;
+    padding: 0;
+}
+.lista-abt li{
+    margin-bottom: 1.5vh;
+}
+.lista-abt p{
+
+    color: white;
+    font-family: var(--roboto);
+    font-size: 2.2vh;
+    color: rgb(187, 173, 173);
+    margin-left: 0vh;
+    margin-top: 0vh;
+    margin: 0;
+    padding: 0 ;
+
+}
+.txt-red{
+    color: rgb(209, 139, 139);
+
 }

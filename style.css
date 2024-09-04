@@ -590,7 +590,7 @@ a {
 }
 
 .team-container {
-    margin-left: 40vh;
+    margin-left: 0vh;
     display: flex;
     justify-content: center;
     gap: 5vw;
@@ -848,222 +848,8 @@ a {
 }
 .h2-class-mv{display: none;}
 .menu-img-cn{display: none;}
-@media screen and (max-width: 430px) {
-    .menu-referencias {
-        display: none; 
-    }
-    
-    .menu-img-cn{
-        width: 8vh;
-        display: block;
-        position: absolute;
-        margin-left: 33vh;
-        margin-top: 2vh;
-    }
-    .txt-phone{display: none;}
-    .h2-class{
-        margin-left: 7vh;
-        font-size: 5vh;
-    }
-    .h1-class{
-        margin-left: 7vh;
-        font-size: 8vh;
-    }
-    .txt-x{
-        font-size: 3vh;
-        margin-left: 7vh;
-    }
-    .container_1 {
-        
-        display: grid;
-        border-bottom:0.5vh solid rgb(209, 139, 139);
-        grid-template-areas: 
-            "menu"
-            "texto-principal";
-        grid-template-columns: auto;
-        grid-template-rows: 12vh 150vh;
-    }
-    .icon-container{
-        display: none;
-    }
-    .foto-yo{
-        width: 100%;
-        margin-left: 0;
-        margin-top: 60vh;
-    }
-    .img-about{
-        width: 80%;
-        margin-left: 5vh;
-    }
-    
-    .about-h1{
-        margin-left: 12vh;
-    }
-    .about-me{
-        border-bottom: 0.5vh solid rgb(209, 139, 139);
-        background: url("./img/fondo.gif") no-repeat center center fixed;
-        width: 100%;
-        height: 200%;
-        background-size: cover; 
-        padding: 0;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        position: relative;
-    }
-    .nombre-about{
-        margin-left: 0;
-        margin-top: 89vh;
-        margin-left: 4vh;
-    }
-    .txt-p-abt{
-        margin-left: 4.3vh;
-        margin-top: 96vh;
-    }
-    .txt-info-abt{
-        margin-left: 4.2vh;
-        margin-top: 103vh;
-    }
-    .lista-abt{
-        margin-left: 0vh;
-        margin-top: 130vh;
-        margin-left: 4.2vh;
 
-    }
-    .ista-abt p{
-
-        color: white;
-        font-family: var(--roboto);
-        font-size: 2.2vh;
-        color: rgb(187, 173, 173);
-        margin-left: 0vh;
-        margin-top: 0vh;
-        margin: 0;
-        padding: 0 ;
-    
-    }
-    .github-button {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-decoration: none;
-        color: white;
-        color: rgb(209, 139, 139);
-        background-color: #333;
-        border-radius: 5px;
-        padding: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        transition: background-color 0.3s, transform 0.3s;
-        width: 20vh;
-        height: 15vh;
-        margin-left: 52vh;
-        margin-top: 310vh;
-    }
-    .container-2{
-        display: grid;
-        border-bottom: 0.5 solid rgb(209, 139, 139);
-        grid-template-areas: 
-        "skills"
-        "hobbies";
-        grid-template-columns: auto;
-        grid-template-rows: 90vh 130vh;
-    }
-    .h2-skills{
-        font-size: 2vh;
-        margin-left: 4vh;
-    }
-    .txt-skills{display: none;}
-    .txt-skills-2{display: none;}
-    .progress-bar-container {
-        position: relative; 
-        top: 20vh;
-        width: 60vh; 
-        padding: 2vh 0; 
-        margin: 4vh 0;
-        margin-left: 4vh; 
-    }
-    
-    .progress-bar{
-        width: 40vh;
-    }
-    .timeline-item{
-        width: 50%;
-        justify-content: left;
-    }
-    .escudo-img-amazonia{
-        margin-left: 25vh;
-        margin-top: -30vh;
-        width: 10vh;
-    }
-    .escudo-img-pg{
-        margin-left: 25vh;
-        margin-top: -30vh;
-        width: 10vh;
-    }
-    .team-container{
-        margin-left: 0;
-    }
-    #modi-mov{
-        margin-left:14vh;
-    }
-    .team-member, .team-member-2, .team-member-3,.team-member-4, .team-member-5 {
-        text-align: center;
-    }
-    .team-member h3,.team-member-2 h3,.team-member-3 h3,.team-member-4 h3,.team-member-6 h3{
-        
-        font-size: 3.4vh;
-        color: #fff;
-    }
-    .team-member-2 
-    
-    .team-member p,.team-member-2 p,.team-member-3 p,.team-member-4 p,.team-member-5 p {
-        font-size: 2vh;
-        color: #aaa;
-    }
-    .team-member-2 h3,.team-member-3 h3,.team-member-4 h3,.team-member-5 h3{
-        font-size: 3.4vh;
-        color: #fff;
-    }
-    .team-member {
-        grid-area: team-member;
-    }
-    
-    .team-member-2 {
-        grid-area: team-member-2;
-    }
-    
-    .team-member-3 {
-        grid-area: team-member-3;
-    }
-    
-    .team-member-4 {
-        grid-area: team-member-4;
-    }
-    .container-3{
-        display: grid;
-        border-bottom: 0.5 solid rgb(209, 139, 139);
-        grid-template-areas: 
-        "rapido"
-        ;
-        grid-template-columns: auto;
-        grid-template-rows: 60vh;
-    }
-    #tm-5{
-        display: none;
-    }
-    #tm-4{
-        display: none;
-    }
-    #modi{display: none;}
-    #modi-mov{display: none;}
-    #rp-h1{
-        margin-left: 3vh;
-        font-size: 3.5vh;
-    }
-}
-@media screen and (max-width: 770px){
+@media (max-width: 768px) {
     .menu-referencias {
         display: none; 
     }
@@ -1134,5 +920,35 @@ a {
     }
     .txt-skills{display: none;}
     .txt-skills-2{display: none;}
-
+    .progress-bar-container{
+        margin-left: 3vh;
+        top: 23vh;
+        
+    }
+    .progress-bar{
+        width: 70vh;
+    }
+    .timeline-item{
+        width: 90%;
+    }
+    .escudo-img-pg{
+        margin-left: 43vh;
+        width: 20vh;
+        margin-top: -29vh;
+    }
+    .escudo-img-amazonia{
+        margin-left: 36vh;
+        width: 13vh;
+        margin-top: -25vh;
+    }
+    #rp-h1{
+        margin-left: 15vh;
+        font-size: 3.5vh;
+    }
+    #tm-6{
+        display: none;
+    }
+    .team-container{
+        margin-left: 3vh;
+    }
 }

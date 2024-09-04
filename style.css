@@ -952,8 +952,36 @@ a {
         transition: background-color 0.3s, transform 0.3s;
         width: 20vh;
         height: 15vh;
-        margin-left: 40vh;
+        margin-left: 52vh;
         margin-top: 310vh;
     }
+    .container-2{
+        display: grid;
+        border-bottom: 0.5 solid rgb(209, 139, 139);
+        grid-template-areas: 
+        "skills"
+        "hobbies";
+        grid-template-columns: auto;
+        grid-template-rows: 80vh 110vh;
+    }
+    .h2-skills{
+        font-size: 2vh;
+        margin-left: 4vh;
+    }
+    .txt-skills{display: none;}
+    .txt-skills-2{display: none;}
+    .progress-bar-container {
+        position: relative; 
+        top: 20vh;
+        width: 60vh; 
+        padding: 2vh 0; 
+        margin: 4vh 0;
+        margin-left: 4vh; 
+    }
     
+    .progress-bar{
+        width: 40vh;
+    }
+    
+
 }

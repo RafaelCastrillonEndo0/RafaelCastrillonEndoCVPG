@@ -108,15 +108,6 @@
                 <li><p>Idiomas&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp: Español , <span class="txt-red">aprendiendo inglés</span></p></li>
               </ul>
 
-              
-
-
-
-
-
-
-
-
               <img class="img-about" src="./img/placeholder-img.png" alt="">
               <div class="github-button-container">
                 <a href="https://github.com/RafaelCastrillonEndo0" target="_blank" class="github-button">
@@ -151,9 +142,27 @@
                 </div>
             </div>
             
-            <h2 class="h2-skills">Puntuo del 0% al 100% algunas habilidades de Developer,<br>
-                 las cuales quiero mejorar mediante aprendizaje <br> y practica continua.
+            <h2 id="h2-skills" class="h2-skills">
+                Puntuo del 0% al 100% algunas habilidades de Developer,<br>
+                las cuales quiero mejorar mediante aprendizaje <br> y práctica continua.
             </h2>
+            
+            <script>
+                const mediaQq = window.matchMedia('(max-width: 430px)');
+            
+                function cambiarT(e) {
+                    const h2 = document.getElementById('h2-skills');
+                    if (e.matches) {
+                        h2.innerHTML = ' Puntuo del 0% al 100% algunas <br>habilidades de Developer, las <br> cuales quiero mejorar meidante <br> aprendizaje y practica continua'; 
+                    } else {
+                        h2.textContent = 'punto del 0% al 100% algunas habilidades de Developer, <br> las cuales quiero mejorar mediante aprendizaje <br> y práctica continua.'; 
+                    }
+                }
+            
+                mediaQq.addListener(cambiarT);
+                cambiarT(mediaQq);
+            </script>
+            
             <p class="txt-skills">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi eos nostrum <br> delectus reiciendis, accusamus quo itaque blanditiis amet et porro minima error <br> sed sunt? Neque dolorum culpa maiores repellendus consectetur!</p>
             <p class="txt-skills-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi eos nostrum <br> delectus reiciendis, accusamus quo itaque blanditiis amet et porro minima error <br> sed sunt? Neque dolorum culpa maiores repellendus consectetur!</p>
             

@@ -326,6 +326,7 @@ a {
     margin: 0;
     padding: 0 ;
 
+
 }
 .txt-red{
     color: rgb(209, 139, 139);
@@ -338,6 +339,7 @@ a {
     margin-top: 15vh;
     
 }
+
 .github-button-container {
     display: flex;
     justify-content: center;
@@ -468,7 +470,6 @@ a {
     margin-top: 50vh;
     letter-spacing: 0.1vh;
 }
-
 .hobbies{
     grid-area: hobbies;
     border-bottom: 0.5vh solid rgb(209, 139, 139); 
@@ -1045,7 +1046,7 @@ a {
         "rapido"
         ;
         grid-template-columns: auto;
-        grid-template-rows: 50vh;
+        grid-template-rows: 60vh;
     }
     #tm-5{
         display: none;
@@ -1054,5 +1055,9 @@ a {
         display: none;
     }
     #modi{display: none;}
-    
+    #modi-mov{display: none;}
+    #rp-h1{
+        margin-left: 3vh;
+        font-size: 3.5vh;
+    }
 }

@@ -623,7 +623,7 @@ a {
     "footer"
     ;
     grid-template-columns: auto;
-    grid-template-rows: 120vh 8vh;
+    grid-template-rows: 100vh 8vh;
 }
 .contacto-container{
     
@@ -640,7 +640,6 @@ a {
 }
 .contact-form {
     grid-area: rapido;
-    border-bottom: 0.5vh solid rgb(209, 139, 139); 
     background: url("./img/fondo.gif") no-repeat center center fixed;
     background-size: cover; 
     padding: 0;
@@ -825,4 +824,15 @@ a {
 
 .contact-form button:hover {
     background-color: orange;
+}
+.footer {
+    background-color: #111827; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 2vh 0; 
+    bottom: 0;
+    width: 100%; 
+    font-family: Arial, sans-serif; 
+    font-size: 2vh;
+    height: 4vh; 
 }

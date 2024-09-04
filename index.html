@@ -37,7 +37,24 @@
 <body>
     <div id="ref-Container-1" class="container_1">
         <div class="menu">
-            <h1 class="texto-h1-menu">RAFAEL ENDO</h1>
+            <h1 id="texto-h1-ap" class="texto-h1-menu">RAFAEL ENDO</h1>
+            
+            <script>
+                const mediaQuery = window.matchMedia('(max-width: 400px)');
+                function cambiarTexto(e) {
+                    const h1 = document.getElementById('texto-h1-ap');
+                    if (e.matches) {
+                        h1.textContent = 'RAFAEL';
+                    } else {
+                        h1.textContent = 'RAFAEL ENDO';
+                    }
+                }
+        
+                mediaQuery.addListener(cambiarTexto);
+        
+                cambiarTexto(mediaQuery);
+            </script>
+
             <img class="icon-img" src="./img/code-img.png" alt="">
             <ul class="menu-referencias">
                 <li><a href="#ref-Container-1"><p class="text-menu">HOME</p></a></li>

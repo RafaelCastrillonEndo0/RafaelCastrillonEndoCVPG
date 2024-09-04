@@ -836,3 +836,16 @@ a {
     font-size: 2vh;
     height: 4vh; 
 }
+.ok
+{
+    display: none;
+}
+
+
+@media screen and (max-width: 400px) {
+    .menu-referencias {
+        display: none; 
+    }
+
+   
+}

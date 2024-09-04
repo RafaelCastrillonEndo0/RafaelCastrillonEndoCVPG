@@ -520,14 +520,97 @@ a {
     line-height: 3vh;
 }
 .escudo-img-pg{
-    position: absolute;
-    width: 23vh;
-    margin-top: -33vh;
-    margin-left: 35vh;
-}
-.escudo-img-amazonia{
+    border-radius: 50%;
+    box-shadow: 0 0 2vh rgba(0, 0, 0, 0.5);
     position: absolute;
     width: 23vh;
     margin-top: -33vh;
     margin-left: 54vh;
+}
+.escudo-img-amazonia{
+    border-radius: 50%;
+    box-shadow: 0 0 2vh rgba(0, 0, 0, 0.5);
+    position: absolute;
+    width: 23vh;
+    margin-top: -33vh;
+    margin-left: 54vh;
+}
+
+.container-3{
+    display: grid;
+    border-bottom: 0.5 solid rgb(209, 139, 139);
+    grid-template-areas: 
+    "rapido"
+    ;
+    grid-template-columns: auto;
+    grid-template-rows: 50vh;
+}
+.rapido{
+    grid-area: rapido;
+    border-bottom: 0.5vh solid rgb(209, 139, 139); 
+    background: url("./img/fondo.gif") no-repeat center center fixed;
+    background-size: cover; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+.rapido-h1{
+    padding: 0;
+    margin: 0;
+    font-family: var(--fuenteMono);
+    letter-spacing: -0.4vh;
+    word-spacing: -1vh;
+    color: yellow;
+    font-size: 4vh;
+    margin-left: 70vh;
+    margin-top: 3vh;
+    position: relative;
+}
+.rapdio-h1::after {
+    content: ""; 
+    display: block;  
+    width: 8vh;  
+    height: 0.4vh; 
+    background-color: yellow; 
+    margin: 0 auto;
+    margin-top: 1vh; 
+    border-radius: 1vh;  
+}
+.rapido h1{
+    margin-left: 70vh;
+}
+
+.team-container {
+    margin-left: 40vh;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    padding: 5vh 0; 
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-photo {
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 2vh rgba(0, 0, 0, 0.5); 
+    margin-bottom: 2vh; 
+}
+
+.team-member h3 {
+    
+    font-size: 3.4vh;
+    color: #fff;
+}
+
+.team-member p {
+    font-size: 2vh;
+    color: #aaa;
 }

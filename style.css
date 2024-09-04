@@ -403,6 +403,7 @@ a {
 
 .progress-bar-container {
     position: relative; 
+    top: 8vh;
     width: 60vh; 
     padding: 2vh 0; 
     margin: 4vh 0;
@@ -431,4 +432,36 @@ a {
 
 .progress-bar-container:hover .progress {
     width: 70%;
+}
+.progress-bar-container p{
+    position: absolute;
+    margin-top: -4vh;
+    font-size: 3vh;
+    color: white;
+}
+.h2-skills{
+    font-family: var(--fuenteMono);
+    font-size: 3vh;
+    letter-spacing: -0.4;
+    margin-top: -40vh;
+    margin-left: 8vh;
+    color: white;
+}
+.txt-skills{
+    position: absolute;
+    color: rgb(187, 173, 173);
+    font-family: var(--roboto);
+    font-size: 2.6vh;
+    margin-left: 8vh;
+    margin-top: 32vh;
+    letter-spacing: 0.1vh;
+}
+.txt-skills-2{
+    position: absolute;
+    color: rgb(187, 173, 173);
+    font-family: var(--roboto);
+    font-size: 2.6vh;
+    margin-left: 8vh;
+    margin-top: 50vh;
+    letter-spacing: 0.1vh;
 }

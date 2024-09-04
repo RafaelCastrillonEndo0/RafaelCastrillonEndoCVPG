@@ -840,12 +840,47 @@ a {
 {
     display: none;
 }
-
-
-@media screen and (max-width: 400px) {
+.h2-class-mv{display: none;}
+.menu-img-cn{display: none;}
+@media screen and (max-width: 430px) {
     .menu-referencias {
         display: none; 
     }
-
-   
+    
+    .menu-img-cn{
+        width: 8vh;
+        display: block;
+        position: absolute;
+        margin-left: 33vh;
+        margin-top: 2vh;
+    }
+    .txt-phone{display: none;}
+    .h2-class{
+        margin-left: 7vh;
+        font-size: 5vh;
+    }
+    .h1-class{
+        margin-left: 7vh;
+        font-size: 8vh;
+    }
+    .txt-x{
+        font-size: 3vh;
+        margin-left: 7vh;
+    }
+    .container_1 {
+        display: grid;
+        border-bottom:0.5vh solid rgb(209, 139, 139);
+        grid-template-areas: 
+            "menu"
+            "texto-principal";
+        grid-template-columns: auto;
+        grid-template-rows: 12vh 160vh;
+    }
+    .icon-container{
+        display: none;
+    }
+    .foto-yo{
+        width: 100%;
+        margin-left: 0;
+    }
 }

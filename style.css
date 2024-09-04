@@ -388,6 +388,9 @@ a {
     grid-template-columns: auto;
     grid-template-rows: 85vh 110vh;
 }
+#modi{
+    margin-left: 90vh;
+}
 .skills {
     grid-area: skills;
     border-bottom: 0.5vh solid rgb(209, 139, 139); 
@@ -962,7 +965,7 @@ a {
         "skills"
         "hobbies";
         grid-template-columns: auto;
-        grid-template-rows: 80vh 110vh;
+        grid-template-rows: 90vh 130vh;
     }
     .h2-skills{
         font-size: 2vh;
@@ -982,6 +985,74 @@ a {
     .progress-bar{
         width: 40vh;
     }
+    .timeline-item{
+        width: 50%;
+        justify-content: left;
+    }
+    .escudo-img-amazonia{
+        margin-left: 25vh;
+        margin-top: -30vh;
+        width: 10vh;
+    }
+    .escudo-img-pg{
+        margin-left: 25vh;
+        margin-top: -30vh;
+        width: 10vh;
+    }
+    .team-container{
+        margin-left: 0;
+    }
+    #modi-mov{
+        margin-left:14vh;
+    }
+    .team-member, .team-member-2, .team-member-3,.team-member-4, .team-member-5 {
+        text-align: center;
+    }
+    .team-member h3,.team-member-2 h3,.team-member-3 h3,.team-member-4 h3,.team-member-6 h3{
+        
+        font-size: 3.4vh;
+        color: #fff;
+    }
+    .team-member-2 
     
-
+    .team-member p,.team-member-2 p,.team-member-3 p,.team-member-4 p,.team-member-5 p {
+        font-size: 2vh;
+        color: #aaa;
+    }
+    .team-member-2 h3,.team-member-3 h3,.team-member-4 h3,.team-member-5 h3{
+        font-size: 3.4vh;
+        color: #fff;
+    }
+    .team-member {
+        grid-area: team-member;
+    }
+    
+    .team-member-2 {
+        grid-area: team-member-2;
+    }
+    
+    .team-member-3 {
+        grid-area: team-member-3;
+    }
+    
+    .team-member-4 {
+        grid-area: team-member-4;
+    }
+    .container-3{
+        display: grid;
+        border-bottom: 0.5 solid rgb(209, 139, 139);
+        grid-template-areas: 
+        "rapido"
+        ;
+        grid-template-columns: auto;
+        grid-template-rows: 50vh;
+    }
+    #tm-5{
+        display: none;
+    }
+    #tm-4{
+        display: none;
+    }
+    #modi{display: none;}
+    
 }
